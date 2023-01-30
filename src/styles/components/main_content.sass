@@ -2,7 +2,7 @@
 @use '../mixins'
 
 #main_content
-  background-color: variables.$bg_color
+  background-color: variables.$background_color
   flex: 2 1 0
   border-radius: variables.$container_border_radius
   padding: 3rem
@@ -12,7 +12,7 @@
     flex-direction: column
 
   h2
-    color: variables.$main_text_clr
+    color: variables.$main_text_color
     font-size: 2.2rem
     margin-bottom: 1.3rem
     @include mixins.center
@@ -23,7 +23,7 @@
       @include mixins.gradient_border
 
   p
-    color: variables.$secondary_text_clr
+    color: variables.$secondary_text_color
     margin-bottom: 1rem
     line-height: 1.4rem
 
