@@ -1,17 +1,17 @@
 @use '../variables'
 @use '../mixins'
 
-#info_container
+#info-container
   @include mixins.center
   flex-direction: column
-  background-color: variables.$secondary_background_color
+  background-color: variables.$secondary-background-color
   padding: 1rem
   margin-bottom: 2rem
   text-align: left
   width: 80%
-  border-radius: variables.$card_border_radius
+  border-radius: variables.$card-border-radius
 
-  .info_card
+  .info-card
     @include mixins.center
     justify-content: start
     gap: 1rem
@@ -21,26 +21,26 @@
     width: 100%
 
     h3
-      color: variables.$secondary_text_color
+      color: variables.$secondary-text-color
       font-size: 0.8rem
       margin-bottom: 0.5rem
 
     p
-      color: variables.$main_text_color
+      color: variables.$main-text-color
 
     svg
-      background-color: variables.$background_color
+      background-color: variables.$background-color
       padding: 0.4rem
       width: 2rem
       height: 2rem
-      border-radius: variables.$card_border_radius
+      border-radius: variables.$card-border-radius
       min-width: 32px
 
-    #phone_icon
+    #phone-icon
       color: #e93b81
 
-    #mail_icon
+    #mail-icon
       color: #6ab5b9
 
-    #location_icon
+    #location-icon
       color: #c17ceb

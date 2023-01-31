@@ -1,10 +1,10 @@
 @use '../variables'
 @use '../mixins'
 
-#main_content
-  background-color: variables.$background_color
+#main-content
+  background-color: variables.$background-color
   flex: 2 1 0
-  border-radius: variables.$container_border_radius
+  border-radius: variables.$container-border-radius
   padding: 3rem
 
   section
@@ -12,7 +12,7 @@
     flex-direction: column
 
   h2
-    color: variables.$main_text_color
+    color: variables.$main-text-color
     font-size: 2.2rem
     margin-bottom: 1.3rem
     @include mixins.center
@@ -20,10 +20,10 @@
     gap: 1rem
 
     &::after
-      @include mixins.gradient_border
+      @include mixins.gradient-border
 
   p
-    color: variables.$secondary_text_color
+    color: variables.$secondary-text-color
     margin-bottom: 1rem
     line-height: 1.4rem
 

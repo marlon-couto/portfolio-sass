@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Projects = () => {
+export default function Projects() {
   return (
-    <section className="projects_container">
+    <section className="projects-container">
       <h2>Projetos</h2>
 
       <p>
@@ -11,14 +11,9 @@ const Projects = () => {
         consectetur, incidunt id quo dolorem officia, laborum sunt corrupti.
       </p>
 
-      <a
-        href=""
-        className="button"
-      >
+      <a href="" className="button">
         Ver Projetos
       </a>
     </section>
   );
-};
-
-export default Projects;
+}

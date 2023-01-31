@@ -4,16 +4,14 @@ import About from './About';
 import Technologies from './Technologies';
 import Projects from './Projects';
 
-import '../assets/styles/components/main_content.sass';
+import '../styles/components/main-content.sass';
 
-const MainContent = () => {
+export default function MainContent() {
   return (
-    <main id="main_content">
+    <main id="main-content">
       <About />
       <Technologies />
       <Projects />
     </main>
   );
-};
-
-export default MainContent;
+}

@@ -1,8 +1,8 @@
 import React from 'react';
 
-const About = () => {
+export default function About() {
   return (
-    <section className="about_container">
+    <section className="about-container">
       <h2>Sobre</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta itaque,
@@ -18,6 +18,4 @@ const About = () => {
       </p>
     </section>
   );
-};
-
-export default About;
+}
