@@ -16,7 +16,7 @@ export default function SocialNetworks() {
         <a
           key={network.name}
           href="#"
-          className="social-button"
+          className="social_button"
           id={network.name}
         >
           {network.icon}

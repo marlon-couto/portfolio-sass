@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function About() {
   return (
-    <section className="about-container">
+    <section className="about_container">
       <h2>Sobre</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta itaque,

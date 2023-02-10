@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Projects() {
   return (
-    <section className="projects-container">
+    <section className="projects_container">
       <h2>Projetos</h2>
 
       <p>

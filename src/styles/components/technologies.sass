@@ -1,24 +1,24 @@
-@use '../variables'
-@use '../mixins'
+@use '../variables' as *
+@use '../mixins' as *
 
-.technologies-container
+.technologies_container
   margin-bottom: 1rem
 
-  .technologies-grid
+  .technologies_grid
     display: flex
     flex-wrap: wrap
     gap: 1.5rem
 
-    .technology-card
-      @include mixins.center
+    .technology_card
+      @include center()
       gap: 1rem
       padding: 1rem
       border: 1px solid #333
       width: 45%
-      border-radius: variables.$card-border-radius
+      border-radius: $card-border-radius
 
       h3
-        color: variables.$main-txt-clr
+        color: $main-txt-clr
         margin-bottom: 1rem
 
       svg

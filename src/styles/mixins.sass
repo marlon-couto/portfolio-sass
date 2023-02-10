@@ -1,4 +1,4 @@
-@use './variables'
+@use './variables' as *
 
 @mixin center()
   display: flex
@@ -7,13 +7,13 @@
 
 @mixin button()
   padding: 1rem 1.2rem
-  color: variables.$main-txt-clr
-  background: variables.$gradient
+  color: $main-txt-clr
+  background: $gradient
   text-decoration: none
   border-radius: 3rem
 
 @mixin gradient-border()
   content: ""
-  background: variables.$gradient
+  background: $gradient
   height: 3px
   width: 30%
