@@ -2,7 +2,7 @@ import React from 'react';
 
 import InfoContainer from './InfoContainer';
 import SocialNetworks from './SocialNetworks';
-
+// TODO: trocar imagem de perfil
 import avatar from '../img/profile.png';
 import '../styles/components/sidebar.sass';
 
