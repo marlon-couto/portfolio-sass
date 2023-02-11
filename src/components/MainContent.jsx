@@ -8,7 +8,7 @@ import '../styles/components/main-content.sass';
 
 export default function MainContent() {
   return (
-    <main id="main_content">
+    <main id="main-content">
       <About />
       <Technologies />
       <Projects />

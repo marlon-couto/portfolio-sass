@@ -21,13 +21,13 @@ const technologies = [
 
 export default function Technologies() {
   return (
-    <section className="technologies_container">
+    <section className="technologies-container">
       <h2>Tecnologias</h2>
-      <div className="technologies_grid">
+      <div className="technologies-grid">
         {technologies.map((tech) => (
-          <div key={tech.id} className="technology_card" id={tech.id}>
+          <div key={tech.id} className="technology-card" id={tech.id}>
             {tech.icon}
-            <div className="technology_info">
+            <div className="technology-info">
               <h3>{tech.name}</h3>
               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
