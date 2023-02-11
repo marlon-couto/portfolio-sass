@@ -1,7 +1,7 @@
 @use '../variables' as *
 @use '../mixins' as *
 
-#info_container
+#info-container
   @include center()
   flex-direction: column
   background-color: $secondary-bg-clr
@@ -10,8 +10,8 @@
   text-align: left
   width: 80%
   border-radius: $card-border-radius
-
-  .info_card
+  // FIXME: corrigir tamanho do email
+  .info-card
     @include center()
     justify-content: start
     gap: 1rem
@@ -36,11 +36,11 @@
       border-radius: $card-border-radius
       min-width: 32px
 
-    #phone_icon
+    #phone-icon
       color: #e93b81
 
-    #mail_icon
+    #mail-icon
       color: #6ab5b9
 
-    #location_icon
+    #location-icon
       color: #c17ceb
